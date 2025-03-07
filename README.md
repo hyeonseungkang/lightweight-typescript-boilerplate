@@ -2,7 +2,7 @@
 
 ## Description
 
-- Typescript boilerplate for tiny codebase.
+- Typescript boilerplate for tiny codebase, office-work automation.
 - Instant starts with swc, eslint, prettier, jest.
 
 ## Project setup
