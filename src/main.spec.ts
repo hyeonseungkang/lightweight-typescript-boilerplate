@@ -1,7 +1,7 @@
 import { MyClass } from './my-class';
 import { main } from './main';
 
-describe('AppController', () => {
+describe('main.ts', () => {
   let myClass: MyClass;
 
   beforeEach(() => {
@@ -12,7 +12,7 @@ describe('AppController', () => {
 
   describe('main', () => {
     it('should return "world"', () => {
-      expect(main()).toBe(myClass.hello);
+      expect(main().hello).toBe(myClass.hello);
     });
   });
 });
