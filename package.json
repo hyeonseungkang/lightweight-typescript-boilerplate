@@ -12,8 +12,8 @@
   "scripts": {
     "build": "rimraf dist && swc src -d dist",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start": "node dist/src/main",
-    "start:dev": "nodemon --watch src --ext ts --exec 'npm run build && npm run start'",
+    "start": "npm run build && node dist/src/main",
+    "start:dev": "nodemon --watch src --ext ts --exec 'npm run start'",
     "lint": "eslint \"{src}/**/*.ts\" --fix",
     "test": "jest",
     "test:watch": "jest --watch",
