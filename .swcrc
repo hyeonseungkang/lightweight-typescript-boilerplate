@@ -1,7 +1,9 @@
 {
   "$schema": "https://swc.rs/schema.json",
   "sourceMaps": true,
+  "isModule": true,
   "jsc": {
+    "target": "ES2023",
     "parser": {
       "syntax": "typescript",
       "decorators": true,
@@ -16,7 +18,6 @@
   "minify": false,
   "exclude": [
     "node_modules",
-    "dist",
-    "\\.spec\\.ts$"
+    "dist"
   ]
 }
